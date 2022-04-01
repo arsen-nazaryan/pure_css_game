@@ -117,8 +117,8 @@ body {
 }
 
 .game__wrapper::after {
-    -webkit-animation: move_2 10s infinite;
-    animation: move_2 10s infinite;
+    -webkit-animation: move_2 8s infinite;
+    animation: move_2 8s infinite;
     background-image: url(../media/tom_2.png);
     background-size: 65% auto;
     background-repeat: no-repeat;
@@ -128,8 +128,8 @@ body {
 }
 
 .game__things::before {
-    -webkit-animation: move_3 8s infinite;
-    animation: move_3 8s infinite;
+    -webkit-animation: move_3 10s infinite;
+    animation: move_3 10s infinite;
     background-image: url(../media/tom_3.png);
     background-size: 65% auto;
     background-repeat: no-repeat;
@@ -344,47 +344,47 @@ body {
 
 @-webkit-keyframes move_2 {
     25% {
-        -webkit-transform: translate(0, 66.667vw);
-        transform: translate(0, 66.667vw)
+        -webkit-transform: translate(0vw, 66.667vh);
+        transform: translate(0vw, 66.667vh);
     }
 
     50% {
-        -webkit-transform: translate(66.667vw, 66.667vh);
-        transform: translate(66.667vw, 66.667vh)
+        -webkit-transform: translate(66.667vw, 0vh);
+        transform: translate(66.667vw, 0vh);
     }
 
     75% {
         -webkit-transform: translate(66.667vw, 66.667vh);
-        transform: translate(66.667vw, 66.667vh)
+        transform: translate(66.667vw, 66.667vh);
     }
 
     0%,
     100% {
-        -webkit-transform: translate(0, 0);
-        transform: translate(0, 0)
+        -webkit-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
     }
 }
 
 @keyframes move_2 {
     25% {
-        -webkit-transform: translate(0, 66.667vw);
-        transform: translate(0, 66.667vw)
+        -webkit-transform: translate(0vw, 66.667vh);
+        transform: translate(0vw, 66.667vh);
     }
 
     50% {
-        -webkit-transform: translate(66.667vw, 66.667vh);
-        transform: translate(66.667vw, 66.667vh)
+        -webkit-transform: translate(66.667vw, 0vh);
+        transform: translate(66.667vw, 0vh);
     }
 
     75% {
         -webkit-transform: translate(66.667vw, 66.667vh);
-        transform: translate(66.667vw, 66.667vh)
+        transform: translate(66.667vw, 66.667vh);
     }
 
     0%,
     100% {
-        -webkit-transform: translate(0, 0);
-        transform: translate(0, 0)
+        -webkit-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
     }
 }
 
